@@ -16,16 +16,16 @@ Data does not need to be persisted between server restarts.
 
 ### User
 - email
-  - string
-  - This field is required to create a new user
-  - The system must only allow 1 user per unique email address
+  - string - x
+  - This field is required to create a new user - x
+  - The system must only allow 1 user per unique email address - x
 - password
-  - string
-  - This field is required to create a new user
+  - string - x
+  - This field is required to create a new user - x
 - phone number 
   - number
-  - This field is required to create a new user
-  - When provided, the phone number must follow this pattern ##########
+  - This field is required to create a new user - x
+  - When provided, the phone number must follow this pattern ########## - x
 ### Event
 - type
   - This field is required to create a new event
@@ -51,9 +51,9 @@ The following input json would create an event with the type LOGIN
 ___
 
 The following use cases should be satisfied to get user event data
-- return all failed login events for all users
-- return all login events for a single user
-- return all events for the day before last 
+- return all failed login events for all users - x
+- return all login events for a single user - x
+- return all events for the day before last - x
 - return all events for the week before not including session timeout
 
 The json data returned should at least have the following elements
