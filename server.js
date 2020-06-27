@@ -1,3 +1,5 @@
+//THIS IS A SERVER BASED APPLICATION
+
 //PORT
 const PORT = process.env.PORT || 7000;
 
